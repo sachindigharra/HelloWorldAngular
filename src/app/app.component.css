@@ -1,17 +1,25 @@
 h1 {
-    color: blue;
-    text-align: center;
-    margin-top: 15px;
-  }
-  
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px; /* Optional: Set height to center vertically */
-  }
-  
-  .logo-container img {
-    width: 150px;
-    height: 150px;
-  }
+  color: blue;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.clickable-logo {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.clickable-logo:hover {
+  transform: scale(1.1);
+}
